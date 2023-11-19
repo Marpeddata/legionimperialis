@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import {BaseModel} from '../typeCollection'
+import "../style/datasheetCard.css"
 
 
 type Props = {
@@ -15,7 +16,7 @@ const unit = ({unit}: Props) => {
                        
                         <tbody>
                             
-                            <td>{unit!.name}</td>
+                            {unit!.name}
                             <td>{unit!.movement}</td>
                             <td>{unit!.save}</td>
                             <td>{unit!.caf}</td>

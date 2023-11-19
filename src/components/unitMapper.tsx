@@ -7,15 +7,15 @@ type Props = {
     unitId: string;
   };
   
-  const unitMapper = ({ unitId }: Props) => {
+  const UnitMapper = ({ unitId }: Props) => {
     
-    const [unit, setUnit] = useState<BaseModel>();
+    const [unit, setUnit] = useState<BaseModel | undefined>();
   
     useEffect(() => {
       FetchUnitByID(unitId, setUnit);
-    }, []);
+    }, [unitId]);
   
     return <Unit unit={unit} />;
   };
   
-  export default unitMapper;
+  export default UnitMapper;
