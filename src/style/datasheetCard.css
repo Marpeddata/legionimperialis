@@ -1,0 +1,58 @@
+/* Remove outline from the table */
+/* styles.css (or within a style tag) */
+.card{
+    padding: 0;
+}
+
+.custom-table {
+    
+    border-spacing: 0 0.1rem; /* Adjust the spacing as needed */
+    
+  }
+  p {
+    font-weight: 700;
+    color: whitesmoke;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    border: none; /* Remove borders for table cells */
+    padding: 0.2em;
+    font-weight: normal; 
+    
+  }
+  
+  .custom-table th {
+    border-bottom: 1px solid #02333b; /* Add a bottom border to table headers */
+    color: whitesmoke;
+  }
+
+  .custom-table tbody ul {
+    background-color: #cfdbd9 /* Add a bottom border to table headers */
+  }
+
+  table.custom-table {
+  margin: 0; /* Remove margin around the table */
+  padding: 0; /* Remove padding around the table */
+  border-spacing: 0; /* Remove spacing between table cells */
+}
+
+
+/* Add background color to thead */
+thead {
+  background-color: #02333b;
+  color: whitesmoke;
+}
+
+thead tr {
+    background-color: #02333b;
+}
+
+/* Add background color to tbody */
+tbody {
+  background-color: #cfdbd9;
+  
+}
+
+
+
